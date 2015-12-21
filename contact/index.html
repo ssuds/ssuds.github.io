@@ -1,0 +1,43 @@
+---
+layout: default
+---
+
+<div class="container">
+  <div class="row">
+    <div class="col-xs-12 col-sm-8 col-md-6 col-sm-push-2 col-md-push-3 form__container">
+      <h2>Drop me a line!</h2>
+      <form id="contactform" role="form" method="POST" autocomplete="on">
+        
+        <div class="form-group">
+          <label for="name">Your Name</label>
+          <input type="text" name="name" class="form-control form-input" placeholder="Full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="_replyto">Your Email</label>
+          <input type="email" name="_replyto" class="form-control form-input" placeholder="Email" required>
+        </div>
+
+        <input type="hidden" name="_subject" value="Website contact" />
+
+        <div class="form-group">
+          <label for="message">Your Message</label>
+          <textarea id="message" name="message" class="form-control" rows="4" width="100%" placeholder="Message" required></textarea>
+        </div>
+
+        <input type="text" name="_gotcha" style="display:none" />
+
+        <div>
+          <input type="submit" class="btn btn-primary" value="Send">
+
+        </div>
+      </form>
+
+    <script>
+    	var contactform =  document.getElementById('contactform');
+    	contactform.setAttribute('action', '//formspree.io/' + 'scsudhakar1+website' + '@' + 'gmail' + '.' + 'com');
+	</script>
+
+  </div>
+</div>
+</div>
