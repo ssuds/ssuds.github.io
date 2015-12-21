@@ -3,11 +3,14 @@
 ---
 @charset "utf-8";
 
-/* path to glyphicons */
+/* path to glyphicons and fontawesome */
+$fa-font-path: "/bower_components/font-awesome/fonts/";
 $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 /* custom variable */
 $body-bg: white;
 
 /* any style customization must be before the bootstrap import */
-@import "bootstrap";
+@import "../bower_components/font-awesome/scss/font-awesome";
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
+
