@@ -5,11 +5,11 @@
 
 /* path to glyphicons and fontawesome */
 $fa-font-path: "/bower_components/font-awesome/fonts"; 
-/* $icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/"; */
+$icon-font-path: "/bower_components/bootstrap-sass/assets/fonts/bootstrap/";
 
 /* custom variables go here */
 
 /* any style customization must be before the bootstrap import */
-@import "../bower_components/font-awesome/scss/font-awesome.scss"; 
-/* @import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap"; */
+/* @import "../bower_components/font-awesome/scss/font-awesome.scss";  */
+@import "../bower_components/bootstrap-sass/assets/stylesheets/bootstrap";
 
