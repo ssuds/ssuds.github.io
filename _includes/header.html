@@ -1,21 +1,24 @@
 <header class="site-header">
 
-  <div class="wrapper">
+<div class="wrapper">
 
 <nav class="navbar navbar-pills">
   <div class="container-fluid">
     <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <i class="fa fa-bars"></i>
+      </button>
       <a class="navbar-brand" href="/">{{ site.title }}</a>
     </div>
-    <div>
+    <div class="collapse navbar-collapse" id="myNavbar">
       <ul class="nav navbar-nav navbar-right">
         <li><a href="/"><i class="fa fa-home"></i>Home</a></li>
         <li><a href="/about"><i class="fa fa-info-circle"></i> About</a></li>
         <li><a href="/contact"><i class="fa fa-envelope"></i> Contact</a></li> 
- 
-      </ul>
+       </ul>
     </div>   
   </div>
+
 <hr style="margin-bottom:5px !important; margin-top:5px !important; " />
 </nav>
    
