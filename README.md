@@ -1,6 +1,6 @@
 # ssuds.github.io [![Issues](http://img.shields.io/github/issues/ssuds/ssuds.github.io.svg?style=flat)](https://github.com/ssuds/ssuds.github.io/issues)
 
-> This is the Github repo containing code for my personal website, hosted at [shreyas.gq](shreyas.gq) using [Github Pages](https://pages.github.com/)
+> This is the Github repo containing code for my personal website, hosted at [shreyas.gq](http://shreyas.gq/) using [Github Pages](https://pages.github.com/)
 
 ## About
 
