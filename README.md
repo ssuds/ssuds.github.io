@@ -16,7 +16,7 @@ Jekyll can be configured with the Github Pages dependencies. This will allow bui
 First, install bundler using the command 'gem install bundler'
 My Gemfile contains the appropriate dev dependencies. Simply navigate to the cloned repository and run 'bundle install'
 
-Now, simply run 'bundle exec jekyll serve' in the root of the repository, and visit http://localhost:4000 in your browser to see the page.
+Now, simply run 'jekyll serve --watch' in the root of the repository, and visit http://localhost:4000 in your browser to see the page. The watch tag means that the page will regenerate automatically as changes to the source are made.
 
 ## Staying Updated
 Run 'bundle update' from the root of the repository to keep Jekyll and it's dependencies up to date.
