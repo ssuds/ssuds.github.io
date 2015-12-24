@@ -15,9 +15,11 @@ html {
   position: relative;
   min-height: 100%;
 }
+
 body {
   padding-bottom: 46px;
 }
+
 .footer {
   position: absolute;
   bottom: 0;
@@ -25,4 +27,9 @@ body {
   /* Set the fixed height of the footer here */
   height: 40px;
   text-align: center;
+}
+
+/* Removes gap between carousel and navbar */
+.carousel {
+  top: -21px;
 }
