@@ -9,8 +9,7 @@ p, div {
     font-family: 'Arimo', Verdana, Helvetica, sans-serif;
 }
 
-/* Sticky footer styles
--------------------------------------------------- */
+/* Sticky footer styles */
 html {
   position: relative;
   min-height: 100%;
@@ -32,4 +31,16 @@ body {
 /* Removes gap between carousel and navbar */
 .carousel {
   top: -21px;
+}
+
+
+/* Minimizes "bounce" of carousel by fixing maximum height */
+.carousel {
+  max-height: 600px;
+  overflow: hidden;
+
+  .item img {
+    width: 100%;
+    height: auto;
+  }
 }
