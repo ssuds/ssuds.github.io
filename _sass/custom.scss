@@ -33,6 +33,14 @@ body {
   top: -21px;
 }
 
+.navbar-brand{
+   text-transform: uppercase;
+   font-weight: bold;
+   p{
+   font-size:24px;
+   }  
+}
+
 
 /* Minimizes "bounce" of carousel by fixing maximum height */
 .carousel {
