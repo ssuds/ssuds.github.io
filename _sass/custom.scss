@@ -57,12 +57,26 @@ body {
   h1 {
     text-align: center;
     font-size: 4em;
+  }  
+
+  .col-md-9{
+    text-align: center;
   }
 
-  h3 {
-    display: flex;
-    justify-content: space-between;
+  .col-md-3{
+    text-align:center;
   }
+
+  @media screen and (min-width: 48em){
+    .col-md-9{
+      text-align: right;
+    }
+    .col-md-3{
+      text-align: left;
+    }
+    
+  }
+
 }
 
 .about{
