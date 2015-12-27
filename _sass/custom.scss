@@ -41,18 +41,6 @@ body {
    }  
 }
 
-
-/* Minimizes "bounce" of carousel by fixing maximum height */
-.carousel {
-  max-height: 600px;
-  overflow: hidden;
-
-  .item img {
-    width: 100%;
-    height: auto;
-  }
-}
-
 .experience {
   h1 {
     text-align: center;
