@@ -33,6 +33,18 @@ body {
   top: -21px;
 }
 
+.image {
+    height: 250px;
+    background-position: center;
+    background-size: cover;
+}
+
+@media screen and (min-width: 48em){
+.image {
+    height: 570px;    
+  }
+}
+
 .navbar-brand{
    text-transform: uppercase;
    font-weight: bold;
