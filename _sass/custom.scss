@@ -1,6 +1,9 @@
+/* Background Photo */
 body { 
     background: url(/img/shattered.png) repeat 0 0;
 }
+
+/* Global Fonts */
 
 h1, h2, h3, h4, h5, h6 {
     font-family: 'Arvo', Georgia, Times, serif;
@@ -33,6 +36,7 @@ body {
   top: -21px;
 }
 
+/* Responsive sizing for carousel */
 .image {
     height: 250px;
     background-position: center;
@@ -45,6 +49,7 @@ body {
   }
 }
 
+/* Makes my name in navbar big */
 .navbar-brand{
    text-transform: uppercase;
    font-weight: bold;
@@ -53,6 +58,7 @@ body {
    }  
 }
 
+/* Responsive styling for experience accordion */
 .experience {
   h1 {
     text-align: center;
@@ -79,6 +85,10 @@ body {
 
 }
 
+/* Text formatting for about page */
 .about{
   text-align: center;
 }
+
+/* Changes navbar breakpoint to accomodate for enlarged navbar-brand */
+$grid-float-breakpoint:807px;
