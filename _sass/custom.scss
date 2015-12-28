@@ -92,3 +92,16 @@ body {
 
 /* Changes navbar breakpoint to accomodate for enlarged navbar-brand */
 $grid-float-breakpoint:807px;
+
+.navbar{
+  .navbar-nav{
+    > .active > a {
+      &,
+      &:hover,
+      &:focus {
+        color: darken(darken(#428bca, 6.5%), 15%);
+        background-color: #f8f8f8;
+      }
+    }
+  }
+}
