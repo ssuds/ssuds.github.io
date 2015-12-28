@@ -24,9 +24,11 @@
         </li>
         <li><a href="/about"><i class="fa fa-info-circle"></i> About</a></li>
         <li><a href="/contact"><i class="fa fa-envelope"></i> Contact</a></li> 
-       </ul>
+       </ul> 
     </div>   
   </div>
+
+<!--highlights active page in navbar -->
 <script>
 $(function(){
   function stripTrailingSlash(str) {
@@ -43,7 +45,9 @@ $(function(){
     var currentPage = stripTrailingSlash($(this).attr('href'));
 
     if (activePage == currentPage) {
-      $(this).parent().addClass('active'); 
+      $(this).parent().addClass('active');
+      //code to highlight top level active page for dropdowns //
+      $('.active').closest('li.dropdown').addClass('active'); 
     } 
   });
 });
