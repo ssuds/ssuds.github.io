@@ -49,6 +49,13 @@ body {
   }
 }
 
+/* Forces font color for links in carousel */
+.carousel-link:link, .carousel-link:hover, .carousel-link:active, .carousel-link:visited{
+  color: white;
+}
+
+
+
 /* Makes my name in navbar big */
 .navbar-brand{
    text-transform: uppercase;
