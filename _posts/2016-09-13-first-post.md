@@ -55,8 +55,6 @@ I've never really considered writing a blog. Between school, internships, and my
 
 Unlike David, I don't have decades of experience designing and building spacecraft. But I think that I can relate a lot of these laws to projects I've worked on in school, at internships, and on my Formula SAE team. My goal to start this blog is to go through each of these laws and make a post connecting it with something that I've worked on, expanding on its implications. Obviously, a lot of my projects at internships are protected by NDAs, so these posts will likely be biased toward things I've done in school and on my Formula SAE team. If I can't find something I've worked on to connect with the law, I'll do a little research and try to find good examples of the law in action.
 
-I'm not sure what I'll do after I finish writing posts on all of these laws. But I'm sure that writing 41 posts will take me quite a while, so I have a good bit of time to figure that out.
-
 A note on formatting, spelling and grammar - for now, I'm shooting toward raw content. This section of my site is pretty ugly, but hopefully I'll get around to tidying it up sooner rather than later. Also, I'm typing these posts in Markdown (translated as: no spell check), so a few typos and grammatical errors might slip through. I'll try my best to avoid them, and keep the posts informative and succint.
 
-I'm excited (and quite frankly, a bit intimidated) to see where this experiment goes!
+I'm not sure what I'll do after I finish writing posts on all of these laws. But I'm sure that writing 41 posts will take me quite a while, so I have a good bit of time to figure that out. I'm excited (and quite frankly, a bit intimidated) to see where this experiment goes!
