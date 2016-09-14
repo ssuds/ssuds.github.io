@@ -58,3 +58,5 @@ Unlike David, I don't have decades of experience designing and building spacecra
 I'm not sure what I'll do after I finish writing posts on all of these laws. But I'm sure that writing 41 posts will take me quite a while, so I have a good bit of time to figure that out.
 
 A note on formatting, spelling and grammar - for now, I'm shooting toward raw content. This section of my site is pretty ugly, but hopefully I'll get around to tidying it up sooner rather than later. Also, I'm typing these posts in Markdown (translated as: no spell check), so a few typos and grammatical errors might slip through. I'll try my best to avoid them, and keep the posts informative and succint.
+
+I'm excited (and quite frankly, a bit intimidated) to see where this experiment goes!
