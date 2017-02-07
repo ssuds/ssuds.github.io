@@ -100,6 +100,15 @@ body {
 /* Changes navbar breakpoint to accomodate for enlarged navbar-brand */
 $grid-float-breakpoint:807px;
 
+// CSS for Masonry 
+.grid-item {
+  width: 370px;
+  margin-bottom: 5px;
+  }
+.grid {
+  margin: 0 auto;
+}
+
 /* Styling for navbar active menu item */
 .navbar{
   .navbar-nav{
