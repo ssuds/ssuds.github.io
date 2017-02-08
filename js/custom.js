@@ -6,8 +6,8 @@ $(function(){
    gutter: 5, 
    fitWidth: true
   });
+  $('.grid').imagesLoaded().progress( function() {
+  $('.grid').masonry('layout');
+});
 });
 
-$grid.imagesLoaded().progress( function() {
-  $grid.masonry('layout');
-});
