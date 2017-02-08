@@ -7,3 +7,7 @@ $(function(){
    fitWidth: true
   });
 });
+
+$grid.imagesLoaded().progress( function() {
+  $grid.masonry('layout');
+});

@@ -1,10 +1,10 @@
 # ssuds.github.io [![Issues](http://img.shields.io/github/issues/ssuds/ssuds.github.io.svg?style=flat)](https://github.com/ssuds/ssuds.github.io/issues)
 
-> This is the Github repo containing code for my personal website, hosted at [shreyas.gq](http://shreyas.gq/) using [Github Pages](https://pages.github.com/)
+> This is the Github repo containing code for my personal website, hosted at [shreyassudhakar.com](http://shreyassudhakar.com/) using [Github Pages](https://pages.github.com/)
 
 ## About
 
-The page is built using the [Jekyll](http://jekyllrb.com/) templating system, combined with the [Bootstrap](http://getbootstrap.com/) framework ([SASS branch](https://github.com/twbs/bootstrap-sass)) and [FontAwesome](http://fortawesome.github.io/Font-Awesome/).
+The page is built using the [Jekyll](http://jekyllrb.com/) templating system, combined with the [Bootstrap](http://getbootstrap.com/) framework ([SASS branch](https://github.com/twbs/bootstrap-sass)), [FontAwesome](http://fortawesome.github.io/Font-Awesome/) and [Masonry](https://github.com/desandro/masonry).
 
 ## Build Instructions
 
@@ -21,7 +21,7 @@ Now, simply run 'jekyll serve --watch' in the root of the repository, and visit 
 ## Staying Updated
 Run 'bundle update' from the root of the repository to keep Jekyll and it's dependencies up to date.
 
-Bootstrap and Font Awesome were configured using bower. However, the bower files are not included in the .gitignore file since they are normal dependencies required for the website to function.
+Bootstrap, Masonry, imagesLoaded and Font Awesome were configured using bower. However, the bower files are not included in the .gitignore file since they are normal dependencies required for the website to function.
 [Node.js](https://nodejs.org/en/) (specifically npm, which is included with the Node installation) is required to use bower. Once Node and npm are installed, use the command 'npm install -g bower' to install Bower on your system.
-Bootstrap can be updated with the 'bower update bootstrap-sass' command, and Font Awesome can be updated with the 'bower update font-awesome' command. However, when these packages are updated, keep in mind that other code may need to be updated to support changes in the bootstrap framework.
+Bootstrap can be updated with the 'bower update bootstrap-sass' command, Masonry can be updated with 'bower update masonry', imagesLoaded can be updated with 'bower update imagesLoaded', and Font Awesome can be updated with the 'bower update font-awesome' command. However, when these packages are updated, keep in mind that other code may need to be updated to support changes in the bootstrap framework.
 
