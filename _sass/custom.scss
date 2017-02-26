@@ -66,6 +66,15 @@ body {
 
    }  
 }
+
+// Shrinks my name in navbar for narrow viewports
+@media (max-width: 360px) {
+  .navbar-brand{
+    p{
+      font-size: 18px;
+    }
+  }
+}
 /* Responsive styling for experience accordion */
 .experience {
   h1 {
@@ -237,4 +246,16 @@ $grid-float-breakpoint:807px;
 
 }
   
+}
+
+// Shrinks homepage fonts for narrow viewports
+@media (max-width: 400px) {
+  .home{
+    .container > h3{
+      font-size:35px;
+    }
+    .container > h1{
+      font-size:75px;
+    }
+  }
 }
