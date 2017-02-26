@@ -62,9 +62,10 @@ body {
    font-weight: bold;
    p{
    font-size:24px;
+   white-space: nowrap;
+
    }  
 }
-
 /* Responsive styling for experience accordion */
 .experience {
   h1 {
@@ -149,23 +150,22 @@ $grid-float-breakpoint:807px;
     pointer-events: none;
 }
 
+#homebody{
+  background: url('../img/shattered_dark.png')  repeat 0 0;
+  overflow-x: hidden;
+}
+
 // Hide homepage video for small screens
 // See http://slicejack.com/fullscreen-html5-video-background-css/
 @media (max-width: 807px) {
   .home {
-    background: url('../img/shattered_dark.png');
-    z-index: -1;
-    .footer {
-      background: url('../img/shattered_dark.png');
-      z-index: -1;
-    }
     .video {
     display: none;  
     }
     .video-overlay {
     display: none;
     } 
-  }
+  }  
 }
   
   
@@ -183,7 +183,7 @@ $grid-float-breakpoint:807px;
 
   }
   .footer{
-   height: 50px;
+   height: 60px;
   }
   .navbar .navbar-nav > .active > a{
     color: white;
