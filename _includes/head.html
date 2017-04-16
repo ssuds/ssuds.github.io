@@ -1,24 +1,13 @@
-<head>
-  <meta name="google-site-verification" content="cymXx0S6wZsbhwYGKIY2WmjjeG5ppagjIRKrSv4m_sk" />
-  <script src="{{ site.baseurl }}/bower_components/jquery/dist/jquery.min.js"></script>
-  <script src="{{ site.baseurl }}/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
-  <script src="{{ site.baseurl }}/bower_components/masonry/dist/masonry.pkgd.min.js"></script> 
-  <script src="{{ site.baseurl }}/bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script> 
-  <script type="text/javascript" src="{{ site.baseurl }}/js/custom.js"></script>
-  <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta property="og:title" content="Shreyas Sudhakar : Personal Website" />
-  <meta property="og:site_name" content="Shreyas Sudhakar" />
-  <meta property="og:type" content="website" />
-  <meta property="og:image" content="http://ssuds.github.io/img/shreyas.jpg" />
-  <!--github.io url used based on comments at http://ramsesoriginal.info/2015/03/21/facebook-open-graph-github-pages/ -->
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
-  <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">
-  <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>
-</head>
+ <script src="{{ site.baseurl }}/bower_components/jquery/dist/jquery.min.js"></script>
+ <script src="{{ site.baseurl }}/bower_components/bootstrap-sass/assets/javascripts/bootstrap.min.js"></script>
+ <script src="{{ site.baseurl }}/bower_components/masonry/dist/masonry.pkgd.min.js"></script> 
+ <script src="{{ site.baseurl }}/bower_components/imagesloaded/imagesloaded.pkgd.min.js"></script> 
+ <script type="text/javascript" src="{{ site.baseurl }}/js/custom.js"></script>
+ <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+ <meta charset="utf-8">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge">
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+ <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+ <!-- UNCOMMENT THIS LINE TO ALLOW RSS SUBSCRIPTIONS <link rel="alternate" type="application/rss+xml" title="{{ site.title }}" href="{{ "/feed.xml" | prepend: site.baseurl | prepend: site.url }}">  -->
+ <link href='http://fonts.googleapis.com/css?family=Arvo' rel='stylesheet' type='text/css'>
+ <link href='http://fonts.googleapis.com/css?family=Arimo' rel='stylesheet' type='text/css'>

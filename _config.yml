@@ -6,6 +6,12 @@
 
 # Site settings
 title: Shreyas Sudhakar
+description: This is the personal website of Shreyas Sudhakar.
+social:
+    links:
+      - https://www.linkedin.com/in/shreyassudhakar/
+      - https://github.com/ssuds
+google_site_verification: cymXx0S6wZsbhwYGKIY2WmjjeG5ppagjIRKrSv4m_sk
 baseurl: "" # the subpath of your site, e.g. /blog
 # Build settings
 markdown: kramdown
@@ -22,3 +28,6 @@ sass:
   # on a typical twitter bootstrap stats are :
   # nested 138,7kB, compact 129,1kB, expanded 135,9 kB, compressed 122,4 kB
   # style: compressed
+
+gems:
+  - jekyll-seo-tag
