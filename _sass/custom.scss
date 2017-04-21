@@ -271,3 +271,14 @@ $grid-float-breakpoint:807px;
     }
   }
 }
+
+// blank phone as background for phone screenshot
+.atrix {
+  background: url('../img/atrix_hd_blank.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+  img {
+    padding: 22% 10% 29% 9%;
+  }
+}
