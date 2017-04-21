@@ -282,3 +282,14 @@ $grid-float-breakpoint:807px;
     padding: 22% 10% 29% 9%;
   }
 }
+
+// blank laptop as background for website screenshot
+.laptop {
+  background: url('../img/laptop.png');
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: contain;
+  img {
+    padding: 4.5% 17% 29% 17%;
+  }
+}
