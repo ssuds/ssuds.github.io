@@ -13,7 +13,7 @@ const whoami = defineCollection({
 	}),
 });
 
-const writing = defineCollection({
+/* const writing = defineCollection({
 	type: "content",
 	// Type-check frontmatter using a schema
 	schema: z.object({
@@ -52,5 +52,6 @@ const ship = defineCollection({
 		updatedDate: z.coerce.date().optional(),
 	}),
 });
+*/
 
-export const collections = { writing, thought, ship, whoami };
+export const collections = { /*writing, thought, ship,*/ whoami };
