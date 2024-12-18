@@ -1,6 +1,6 @@
 import { getCollection } from "astro:content";
 
-export type Ship = {
+/* export type Ship = {
 	data: {
 		title: string;
 		description: string;
@@ -10,7 +10,7 @@ export type Ship = {
 		updatedDate: Date;
 	};
 	slug: string;
-};
+}; */
 
 // merge class names with conditional rendering
 export function clsx(...args: any[]): string {
