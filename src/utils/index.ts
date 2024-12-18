@@ -48,7 +48,7 @@ export function formatYearMonth(date: Date): string {
 	return `${year}-${month.toString().padStart(2, "0")}`; // Format as "YYYY-MM"
 }
 
-// Utility function to group ships by year and month
+/* // Utility function to group ships by year and month
 export async function groupShipsByYearMonthSorted(): Promise<
 	Record<string, Ship[]>
 > {
@@ -82,7 +82,7 @@ export async function groupShipsByYearMonthSorted(): Promise<
 
 	return sortedGroupedShips;
 }
-
+*/
 
 export function getBackgroundColorClass(bg_colour: string): string {
 			switch (bg_colour) {
