@@ -1,7 +1,6 @@
 ---
 title: "I'm Shreyas Sudhakar, and I like heat pumps."
 description: "I'm a founder, mechanical engineer, and licensed California HVAC contractor."
-pubDate: 'Dec 18 2024'
 ---
 
 I'm a founder, mechanical engineer, and [licensed California HVAC contractor](https://vayu.pro/?utm_source=shreyassudhakar.com).
