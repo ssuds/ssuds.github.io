@@ -8,10 +8,10 @@ export interface MenuItem {
 
 // Menu items
 export const menuItems: MenuItem[] = [
-	{
+	/*{
 		label: "home",
 		url: "/",
-	} ,/*
+	} ,
 	{
 		label: "writings",
 		url: "/writings",
